@@ -10,7 +10,6 @@ void display(double s[][10],int r,int c);
 void norm(double s[][10],int r,int c);
 double determinant(double s[][10],int r,int c);
 void transpose(double s[][10],int r,int c);
-void inverse(double ); 
 
 int main()
 {
@@ -189,4 +188,3 @@ void transpose(double s[][10],int r, int c)
     cout<<endl;
 }
 
-void inverse()
